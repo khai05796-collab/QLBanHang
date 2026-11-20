@@ -7,7 +7,14 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>27</maven.compiler.release>
-        <exec.mainClass>com.mycompany.do_an.Do_an</exec.mainClass>
+        <maven.compiler.release>17</maven.compiler.release>
+        <exec.mainClass>com.mycompany.do_an.Login_Form</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>13.2.0.jre11</version>
+        </dependency>
+    </dependencies>
 </project>
